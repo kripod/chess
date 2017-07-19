@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>930</x>
+      <y>10</y>
+      <w>760</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>/Piece/
+--
+-num_moves_: int
++short_name: const char
++can_repeat_moves_in_turn: const bool
++color: const Color
+--
+#Piece(short_name: char, can_repeat_moves_in_turn: bool, color: Color)
+/+~Piece()/
+
++num_moves(): int
+
+/+GetMoveDirections(board: const Board&amp;, origin_pos: const Point&amp;): std::vector&lt;Point&gt;/
++GetLegalMoves(board: const Board&amp;, origin_pos: const Point&amp;, blocked_pos: const Point&amp; = {-1, -1}): std::vector&lt;Point&gt;
++GetLegalMoves(board: const Board&amp;): std::vector&lt;Point&gt;
+
++Move(board: const Board&amp;, origin_pos: const Point&amp;, target_pos: const Point&amp;): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1330</x>
+      <y>340</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Rook</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1130</x>
+      <y>340</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Bishop</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1530</x>
+      <y>340</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Knight</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>930</x>
+      <y>340</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Pawn</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1000</x>
+      <y>280</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>280</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1400</x>
+      <y>280</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1600</x>
+      <y>280</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1230</x>
+      <y>420</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Queen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>360</y>
+      <w>130</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1300</x>
+      <y>360</y>
+      <w>130</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>990</x>
+      <y>500</y>
+      <w>640</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>King
+--
++IsInCheck(board: const Board&amp;, origin_pos: const Point&amp;, blocked_pos: const Point&amp; = {-1, -1}): bool
++IsInCheck(board: const Board&amp;): bool
+
++CanEvadeCheck(board: const Board&amp;, origin_pos: const Point&amp;): bool
++CanEvadeCheck(board: const Board&amp;): bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1300</x>
+      <y>440</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>10</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Point
+--
++int x
++int y
+--
++Point(x: int = 0, y: int = 0)
++Point(std::string input)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>210</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Color
+--
+kWhite
+kBlack</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>630</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>Board
+--
+-Piece* squares_[8][8]
+--
+_+Includes(point: const Point&amp;): bool_
+
++Board()
++~Board()
+
++operator[](y: size_t): const Piece* const*
+
+-At(point: const Point&amp;): Piece*&amp;
++At(point: const Point&amp;): const Piece*
+
++GetPos(piece: const Piece*): Point
+
++Move(origin_pos: const Point&amp;, target_pos: const Point&amp;): void
++Exchange(origin_pos: const Point&amp;, target_pos: const Point&amp;, target_piece: Piece*): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>50</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>50</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>240</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

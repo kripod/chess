@@ -1,0 +1,45 @@
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppppppp|7
+6|........|6
+5|........|5
+4|........|4
+3|........|3
+2|PPPPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> e5
+ERROR: Invalid movement. None of the pieces can legally make the given move.
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppppppp|7
+6|........|6
+5|........|5
+4|........|4
+3|........|3
+2|PPPPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> pe4
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppppppp|7
+6|........|6
+5|........|5
+4|....P...|4
+3|........|3
+2|PPPP.PPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black>

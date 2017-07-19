@@ -1,0 +1,135 @@
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppppppp|7
+6|........|6
+5|........|5
+4|........|4
+3|........|3
+2|PPPPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> a4
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppppppp|7
+6|........|6
+5|........|5
+4|P.......|4
+3|........|3
+2|.PPPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black> a5
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|.ppppppp|7
+6|........|6
+5|p.......|5
+4|P.......|4
+3|........|3
+2|.PPPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> h4
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|.ppppppp|7
+6|........|6
+5|p.......|5
+4|P......P|4
+3|........|3
+2|.PPPPPP.|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black> h5
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|.pppppp.|7
+6|........|6
+5|p......p|5
+4|P......P|4
+3|........|3
+2|.PPPPPP.|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> Ra3
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|.pppppp.|7
+6|........|6
+5|p......p|5
+4|P......P|4
+3|R.......|3
+2|.PPPPPP.|2
+1|.NBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black> Ra6
+
+  abcdefgh
+ +--------+
+8|.nbqkbnr|8
+7|.pppppp.|7
+6|r.......|6
+5|p......p|5
+4|P......P|4
+3|R.......|3
+2|.PPPPPP.|2
+1|.NBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> Rh3
+ERROR: Ambiguous movement. Please specify the origin of the piece.
+
+  abcdefgh
+ +--------+
+8|.nbqkbnr|8
+7|.pppppp.|7
+6|r.......|6
+5|p......p|5
+4|P......P|4
+3|R.......|3
+2|.PPPPPP.|2
+1|.NBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> Ra3h3
+
+  abcdefgh
+ +--------+
+8|.nbqkbnr|8
+7|.pppppp.|7
+6|r.......|6
+5|p......p|5
+4|P......P|4
+3|.......R|3
+2|.PPPPPP.|2
+1|.NBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black>

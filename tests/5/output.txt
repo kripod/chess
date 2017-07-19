@@ -1,0 +1,89 @@
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppppppp|7
+6|........|6
+5|........|5
+4|........|4
+3|........|3
+2|PPPPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> a4
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppppppp|7
+6|........|6
+5|........|5
+4|P.......|4
+3|........|3
+2|.PPPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black> e5
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppp.ppp|7
+6|........|6
+5|....p...|5
+4|P.......|4
+3|........|3
+2|.PPPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> b4
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppp.ppp|7
+6|........|6
+5|....p...|5
+4|PP......|4
+3|........|3
+2|..PPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black> Qh4
+
+  abcdefgh
+ +--------+
+8|rnb.kbnr|8
+7|pppp.ppp|7
+6|........|6
+5|....p...|5
+4|PP.....q|4
+3|........|3
+2|..PPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> f4
+
+  abcdefgh
+ +--------+
+8|rnb.kbnr|8
+7|pppp.ppp|7
+6|........|6
+5|....p...|5
+4|PP...P.q|4
+3|........|3
+2|..PPP.PP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black>

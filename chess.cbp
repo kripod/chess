@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="chess" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/chess" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/chess" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/bishop.cc" />
+		<Unit filename="src/bishop.h" />
+		<Unit filename="src/board.cc" />
+		<Unit filename="src/board.h" />
+		<Unit filename="src/color.cc" />
+		<Unit filename="src/color.h" />
+		<Unit filename="src/game.cc" />
+		<Unit filename="src/game.h" />
+		<Unit filename="src/king.cc" />
+		<Unit filename="src/king.h" />
+		<Unit filename="src/knight.cc" />
+		<Unit filename="src/knight.h" />
+		<Unit filename="src/main.cc" />
+		<Unit filename="src/movement.cc" />
+		<Unit filename="src/movement.h" />
+		<Unit filename="src/pawn.cc" />
+		<Unit filename="src/pawn.h" />
+		<Unit filename="src/piece.cc" />
+		<Unit filename="src/piece.h" />
+		<Unit filename="src/point.cc" />
+		<Unit filename="src/point.h" />
+		<Unit filename="src/queen.cc" />
+		<Unit filename="src/queen.h" />
+		<Unit filename="src/rook.cc" />
+		<Unit filename="src/rook.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

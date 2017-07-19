@@ -1,0 +1,104 @@
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppppppp|7
+6|........|6
+5|........|5
+4|........|4
+3|........|3
+2|PPPPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> b4
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|pppppppp|7
+6|........|6
+5|........|5
+4|.P......|4
+3|........|3
+2|P.PPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black> d6
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|ppp.pppp|7
+6|...p....|6
+5|........|5
+4|.P......|4
+3|........|3
+2|P.PPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> b5
+
+  abcdefgh
+ +--------+
+8|rnbqkbnr|8
+7|ppp.pppp|7
+6|...p....|6
+5|.P......|5
+4|........|4
+3|........|3
+2|P.PPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black> Bd7
+
+  abcdefgh
+ +--------+
+8|rn.qkbnr|8
+7|pppbpppp|7
+6|...p....|6
+5|.P......|5
+4|........|4
+3|........|3
+2|P.PPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White> b6
+
+  abcdefgh
+ +--------+
+8|rn.qkbnr|8
+7|pppbpppp|7
+6|.P.p....|6
+5|........|5
+4|........|4
+3|........|3
+2|P.PPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+Black> Bh3
+
+  abcdefgh
+ +--------+
+8|rn.qkbnr|8
+7|ppp.pppp|7
+6|.P.p....|6
+5|........|5
+4|........|4
+3|.......b|3
+2|P.PPPPPP|2
+1|RNBQKBNR|1
+ +--------+
+  abcdefgh
+
+White>
